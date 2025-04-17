@@ -1,0 +1,288 @@
+/*font links*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth@50..200&display=swap');
+
+/*body start*/
+body {
+  background-color: #ffffff;
+  color: #626262;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+}
+/*body end*/
+/*header start*/
+header {}
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.logo{
+  width: 15%;
+  float: left;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #000000;
+  padding: 15px 0px;
+  margin-top: 9px;
+  display: inline-block;
+  font-family: "Inconsolata", monospace;
+}
+
+.menu {
+  width: 65%;
+  float: right;
+}
+
+.menu ul {
+  float: right;
+  margin: 0;
+}
+
+.menu ul li {
+  float: left;
+  list-style: none;
+}
+
+.menu ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+  display: inline-block;
+  padding: 30px 45px;
+  transition: 0.5s;
+}
+
+.menu ul li:last-child a {
+  padding-right: 0px;
+}
+
+.menu ul li a:hover {
+  color: #000000;
+}
+/*header end*/
+/*banner start*/
+.banner {}
+.b_img {}
+.b_img img {
+  width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect {
+  padding: 60px 0px;
+}
+
+.container2 {
+  width: 80%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.p_content h2, .f_part h3 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase; 
+}
+
+.p_content h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 15px 0px 20px;
+}
+
+.p_content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  word-spacing: 1px;
+  margin: 10px 0px 40px;  
+}
+/*perfect end*/
+/*feature start*/
+.feature {
+  padding: 10px 0px 65px;
+}
+
+.f_part {
+  width: 47%;
+  padding: 6.5% 0px;
+  float: left;
+}
+
+.f_part:nth-child(odd) {
+  margin-right: 5.8%;
+}
+
+.f_img img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.f_part h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 25px 0px;
+}
+
+.f_part p {
+  font-size: 14px;
+  font-weight: 400;
+  word-spacing: 2px;
+  line-height: 22px;
+  margin: 20px 0px 0px;
+}
+/*feature end*/
+/*newsletter start*/
+.newsletter {
+  padding: 70px 0px;
+  background-color: #f0f0f0;
+}
+
+.container3 {
+  width: 60%;
+  margin: 0px auto;
+}
+
+.signup {
+  text-align: center;
+}
+
+.signup h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0px 0px 65px;
+}
+
+.news_form {
+  width: 430px;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+  position: relative;
+}
+
+.news_form input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  width: 384px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 40px 10px 5px;
+  outline: none;
+  color: #626262;
+}
+
+.news_form button {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 10px;
+  right: -2px;
+}
+/*newsletter end*/
+/*feature2 start*/
+.feature2 {
+  padding: 40px 0px;
+}
+/*feature2 end*/
+/*btn start*/
+.btn {
+  padding: 50px 0px 190px;
+}
+
+.container3 {
+  width: 40%;
+  text-align: center;
+}
+
+.btn button {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #626262;
+  padding: 20px 40px;
+  background: transparent;
+  border: 1px solid #626262;
+  transition: 0.4s;
+}
+
+.btn button:hover {
+  color: #ffffff;
+  background-color: #626262;
+  border: 1px solid #626262;
+}
+/*btn end*/
+/*footer start*/
+footer{
+  background-color: #f0f0f0;
+  padding: 30px 0px;
+}
+
+.container4 {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.foot_1, .foot_2 {
+  width: 40%;
+  float: left;
+}
+
+.foot_1 ul, .foot_2 ul {
+  margin: 0px;
+}
+
+.foot_1 ul li, .foot_2 ul li {
+  list-style: none;
+  float: left;
+}
+
+.foot_1 ul li a, .foot_2 ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  display: inline-block;
+  padding: 10px;
+}
+
+.foot_1 ul li:first-child a{
+  margin-left: 15px;
+}
+
+.foot_2 {
+  float: right;
+}
+
+.foot_2 ul {
+  float: right;
+}
+
+.foot_2 ul li:last-child a {
+  padding-right: 0px;
+}
+
+.foot_2 ul li a img {
+  width: 100%;
+}
+/*footer end*/
